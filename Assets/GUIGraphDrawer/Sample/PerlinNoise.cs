@@ -34,9 +34,9 @@ namespace GUIGraphDrawer.Sample.Scripts
 
 		[field: SerializeField] public ColumnColor[] Colors { get; private set; } =
 		{
-			new(0.00f, new Color(0.16f, 0.67f, 0.73f)),
-			new(0.33f, new Color(0.18f, 0.38f, 0.53f)),
-			new(0.66f, new Color(0.94f, 0.98f, 0.83f)),
+			new ColumnColor(0.00f, new Color(0.16f, 0.67f, 0.73f)),
+			new ColumnColor(0.33f, new Color(0.18f, 0.38f, 0.53f)),
+			new ColumnColor(0.66f, new Color(0.94f, 0.98f, 0.83f)),
 		};
 
 		[field: SerializeField] public float[] Columns { get; private set; }
