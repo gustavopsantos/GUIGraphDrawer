@@ -1,2 +1,3 @@
 # InspectorGraphDrawer
-GUI Utility capable of drawing GPU accelerated graphs
+![Preview](preview.gif)
+It's an experimental project about drawing GPU accelerated graphs on gui (inspector and builds).
